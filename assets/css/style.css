@@ -1,0 +1,63 @@
+.container {
+    margin: 0 auto;
+    font-size: 24px !important;
+}
+
+.welcome {
+    font-size: 32px;
+    font-family: arial;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-lg {
+    font-size: px;
+    font-weight: bold;
+    color: #0000ff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.atb_btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1.5px solid #000000;
+    font-family: arial;
+    font-weight: bold;
+}
+.atb_btn_red {
+   background-color: #ff0000;
+}
+.atb_btn_green {
+   background-color: #00ff00;
+}
+.atb_btn_blue {
+   background-color: #0000ff;
+}
+.ivy {
+    color: #000;
+}
+.container {
+    display: flex;
+    font-size: 14px !important;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+    .ivy {
+        color: #ec0493;
+    }
+    .atb_btn_blue {
+        background-color: #a804ee;
+    }
+    
+}
