@@ -27,18 +27,23 @@
     font-family: arial;
     font-weight: bold;
 }
+
 .atb_btn_red {
-   background-color: #ff0000;
+    background-color: #bdb110;
 }
+
 .atb_btn_green {
-   background-color: #00ff00;
+    background-color: #00ff00;
 }
+
 .atb_btn_blue {
-   background-color: #0000ff;
+    background-color: #0000ff;
 }
+
 .ivy {
     color: #000;
 }
+
 .container {
     display: flex;
     font-size: 14px !important;
@@ -49,15 +54,18 @@
     gap: 10px;
     margin-top: 20px;
 }
+
 @media (max-width: 767px) {
     .container {
         flex-direction: column;
     }
+
     .ivy {
         color: #ec0493;
     }
+
     .atb_btn_blue {
         background-color: #a804ee;
     }
-    
+
 }
