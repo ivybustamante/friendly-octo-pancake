@@ -1,4 +1,38 @@
 @import "tailwindcss";
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "flowbite/src/themes/default"; */
+@plugin "flowbite/plugin";
+@source "../../node_modules/flowbite";
+
+body {
+  background-color: #3c3557;
+}
+
+:root {
+  --poison-green-dark: #0b7a39;
+  --poison-green: #39d353;
+  --poison-lime: #a8e10c;
+  --poison-yellow: #e6d72a;
+  --poison-orange: #ffb000;
+}
+
+.poison-gradient-text {
+  background: linear-gradient(90deg,
+      var(--poison-green-dark) 0%,
+      var(--poison-green) 30%,
+      var(--poison-lime) 60%,
+      var(--poison-yellow) 80%,
+      var(--poison-orange) 100%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+
 .container {
   margin: 0 auto;
   font-size: 24px !important;
