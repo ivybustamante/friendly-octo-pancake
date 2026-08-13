@@ -1,5 +1,4 @@
 import '../css/style.css';
-import 'flowbite';
 
 import { Header } from './components/Header.js';
 import { initFlowbite } from 'flowbite';
