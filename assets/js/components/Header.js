@@ -1,7 +1,7 @@
 export function Header() {
     return `
         <header>
-            <nav class="bg-white border-gray-200 px-4 py-2.5 dark:bg-gray-800">
+            <nav class="border-gray-200 px-4 py-2.5 bg-gray-800 dark:bg-gray-800">
                 <div class="mx-auto max-w-screen-xl">
 
                     <div class="flex items-center justify-between">
