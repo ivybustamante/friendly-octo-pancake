@@ -85,25 +85,19 @@ export function Header() {
 
                                 <li>
                                     <a href="#" class="text-white hover:text-gray-300">
-                                        Company
+                                        Portfolio
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="#" class="text-white hover:text-gray-300">
-                                        Marketplace
+                                        Blog
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="#" class="text-white hover:text-gray-300">
-                                        Features
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="text-white hover:text-gray-300">
-                                        Team
+                                        FAQs
                                     </a>
                                 </li>
 
@@ -128,23 +122,19 @@ export function Header() {
                             </li>
 
                             <li>
-                                <a href="#" class="block py-2 px-3 text-white">Company</a>
+                                <a href="#" class="block py-2 px-3 text-white">Portfolio</a>
                             </li>
 
                             <li>
-                                <a href="#" class="block py-2 px-3 text-white">Marketplace</a>
+                                <a href="#" class="block py-2 px-3 text-white">Blog</a>
                             </li>
 
                             <li>
-                                <a href="#" class="block py-2 px-3 text-white">Features</a>
+                                <a href="#" class="block py-2 px-3 text-white">FAQs</a>
                             </li>
 
                             <li>
-                                <a href="#" class="block py-2 px-3 text-white">Team</a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="block py-2 px-3 text-white">Contact</a>
+                                <a href="#" class="block py-2 px-3 text-white">Contact/a>
                             </li>
                         </ul>
                     </div>
