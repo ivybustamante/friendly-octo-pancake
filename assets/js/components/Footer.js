@@ -1,5 +1,15 @@
 export function Footer() {
-  return `<footer class="p-4 bg-gray-800 md:p-8 lg:p-10 dark:bg-gray-800">
+  return `<img
+        src="assets/images/poison-ivy.png"
+        alt="Ivy"
+        class="absolute right-0 bottom-0 w-[200px] h-auto"
+      />
+      <img
+        src="assets/images/poison-ivy.png"
+        alt="Ivy"
+        class="absolute left-0 bottom-0 rotate-y-180 w-[200px] h-auto"
+      />
+  <footer class="p-4 bg-gray-800 md:p-8 lg:p-10 dark:bg-gray-800">
   <div class="mx-auto max-w-screen-xl text-center">
       <a href="#" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">  
       </a>
