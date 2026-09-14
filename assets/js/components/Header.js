@@ -65,7 +65,7 @@ export function Header() { return `
             </li>
 
             <li>
-              <a href="#" class="text-white hover:text-gray-300"> Portfolio </a>
+              <a href="/portfolio.html" class="text-white hover:text-gray-300"> Portfolio </a>
             </li>
 
             <li>
@@ -91,7 +91,7 @@ export function Header() { return `
           </li>
 
           <li>
-            <a href="#" class="block py-2 px-3 text-white">Portfolio</a>
+            <a href="/portfolio.html" class="block py-2 px-3 text-white">Portfolio</a>
           </li>
 
           <li>
