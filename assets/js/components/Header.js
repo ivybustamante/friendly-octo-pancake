@@ -61,7 +61,7 @@ export function Header() { return `
         <div class="hidden lg:block">
           <ul class="flex items-center gap-8 font-medium">
             <li>
-              <a href="#" class="text-white hover:text-gray-300"> Home </a>
+              <a href="/" class="text-white hover:text-gray-300"> Home </a>
             </li>
 
             <li>
@@ -87,7 +87,7 @@ export function Header() { return `
       <div class="hidden w-full lg:hidden" id="mobile-menu-2">
         <ul class="flex flex-col items-center mt-4 font-medium">
           <li>
-            <a href="#" class="block py-2 px-3 text-white">Home</a>
+            <a href="/" class="block py-2 px-3 text-white">Home</a>
           </li>
 
           <li>
