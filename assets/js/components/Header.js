@@ -1,12 +1,12 @@
 export function Header() { return `
 <header>
-  <nav class="border-gray-200 px-4 py-2.5 bg-gray-800 dark:bg-gray-800">
+  <nav class="border-gray-200 px-4 py-2.5 bg-white dark:bg-gray-800">
     <div class="mx-auto max-w-screen-xl">
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <a href="/" class="flex items-center">
           <img
-            src="/assets/images/poison-ivy-logo.png"
+            src="assets/images/TINYKUBO Logo.png"
             class="h-16 sm:h-20"
             alt="Poison Ivy Logo"
           />
@@ -61,23 +61,23 @@ export function Header() { return `
         <div class="hidden lg:block">
           <ul class="flex items-center gap-8 font-medium">
             <li>
-              <a href="/" class="text-white hover:text-gray-300"> Home </a>
+              <a href="/" class="text-gray-800 hover:text-gray-300"> Home </a>
             </li>
 
             <li>
-              <a href="/portfolio.html" class="text-white hover:text-gray-300"> Portfolio </a>
+              <a href="/portfolio.html" class="text-gray-800 hover:text-gray-300"> Portfolio </a>
             </li>
 
             <li>
-              <a href="#" class="text-white hover:text-gray-300"> Blog </a>
+              <a href="#" class="text-gray-800 hover:text-gray-300"> Blog </a>
             </li>
 
             <li>
-              <a href="#" class="text-white hover:text-gray-300"> FAQs </a>
+              <a href="#" class="text-gray-800 hover:text-gray-300"> FAQs </a>
             </li>
 
             <li>
-              <a href="#" class="text-white hover:text-gray-300"> Contact </a>
+              <a href="#" class="text-gray-800 hover:text-gray-300"> Contact </a>
             </li>
           </ul>
         </div>
@@ -87,23 +87,23 @@ export function Header() { return `
       <div class="hidden w-full lg:hidden" id="mobile-menu-2">
         <ul class="flex flex-col items-center mt-4 font-medium">
           <li>
-            <a href="/" class="block py-2 px-3 text-white">Home</a>
+            <a href="/" class="block py-2 px-3 text-gray-800">Home</a>
           </li>
 
           <li>
-            <a href="/portfolio.html" class="block py-2 px-3 text-white">Portfolio</a>
+            <a href="/portfolio.html" class="block py-2 px-3 text-gray-800">Portfolio</a>
           </li>
 
           <li>
-            <a href="#" class="block py-2 px-3 text-white">Blog</a>
+            <a href="#" class="block py-2 px-3 text-gray-800">Blog</a>
           </li>
 
           <li>
-            <a href="#" class="block py-2 px-3 text-white">FAQs</a>
+            <a href="#" class="block py-2 px-3 text-gray-800">FAQs</a>
           </li>
 
           <li>
-            <a href="#" class="block py-2 px-3 text-white">Contact</a>
+            <a href="#" class="block py-2 px-3 text-gray-800">Contact</a>
           </li>
         </ul>
       </div>
