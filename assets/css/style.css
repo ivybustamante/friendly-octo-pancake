@@ -94,7 +94,10 @@ body {
   .container {
     flex-direction: column;
   }
-
+  .hero-text {
+    top: 124px;
+    left: 141px;
+  }
   .ivy {
     color: #0cfa77;
   }
